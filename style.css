@@ -1,11 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0%;
     background-color: grey;
-    font-family: Arial, Helvetica, sans-serif
-    
+    font-family: Arial, Helvetica, sans-serif;
+   
 }
 
 header h1 {
@@ -44,14 +52,63 @@ nav a {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-
+    padding: 30px;
+    background-color: black;
+    color: #40E0D0;
 }
 
-img {
+.img-me {
+   max-width: 100%;
+   height: auto;
    max-height: 500px;
    position: relative;
-   display: flex;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+  padding: 30px;
+   border: 30px solid #40E0D0;
+   
    
 }
 
+.Infomation {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
 
+}
+
+.Infomation h2 {
+    font-size: 2rem;
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 2rem;
+}
+.link1 {
+    height: auto;
+    max-height: 300px;
+    max-width: 100%;
+}
+
+.link2 {
+    max-height: 300px;
+    max-width: 100%;
+}
+
+.link3 {
+    max-height: 300px;
+    max-width: 100%;
+}
+
+
+.text-center {
+text-align: center;
+}
+
+.liststyle {
+    float: left;
+}
